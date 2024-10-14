@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestão de Recursos - Indústrias Wayne</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Indústrias Wayne</div>
+            <ul class="main-nav">
+                <li><a href="recursos.html" class="active">Recursos</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+            </ul>
+            <div class="right-section">
+                <p id="olauser"></p>
+                <li><a href="#" onclick="perfilUser()"><i class="fas fa-user-circle"></i> Perfil</a></li>
+                <li><a href="#" onclick="sair()"><i class="fas fa-sign-out-alt"></i> Sair</a></li>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Gestão de Recursos</h1>
+        <button onclick="adicionarRecurso()">Adcionar Recurso</button>
+        <section id="inventory">
+            <h2>Inventário de Equipamentos</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Código</th>
+                        <th>Descrição</th>
+                        <th>Quantidade</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody-inventory">
+
+                </tbody>
+            </table>
+        </section>
+
+        <section id="vehicles">
+            <h2>Veículos</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Código</th>
+                        <th>Modelo</th>
+                        <th>Ano</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody-vehicles">
+
+                </tbody>
+            </table>
+        </section>
+
+        <section id="security-devices">
+            <h2>Dispositivos de Segurança</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Código</th>
+                        <th>Tipo</th>
+                        <th>Status</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody-security">
+
+                </tbody>
+            </table>
+        </section>
+
+        <section id="security-equip">
+            <h2>Equipamentos de Segurança</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Código</th>
+                        <th>Tipo</th>
+                        <th>Status</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody-securityequip">
+
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Indústrias Wayne. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

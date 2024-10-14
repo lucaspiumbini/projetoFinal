@@ -1,0 +1,603 @@
+[
+    {
+      "codigo":"A001",
+      "descricao": "Carro de patrulha",
+      "modelo": "Ford Explorer",
+      "tipo": "SUV",
+      "quantidade": 12,
+      "ano": 2020,
+      "status": "Em uso",
+      "tipo_recurso": "veículos"
+    },
+    {
+      "codigo":"A002",
+      "descricao": "Moto de patrulha",
+      "modelo": "Yamaha XJ6",
+      "tipo": "Moto",
+      "quantidade": 6,
+      "ano": 2019,
+      "status": "Em manutenção",
+      "tipo_recurso": "veículos"
+    },
+    {
+      "codigo":"A003",
+      "descricao": "Coletes à prova de balas",
+      "modelo": "Kevlar XT500",
+      "tipo": "Defesa pessoal",
+      "quantidade": 50,
+      "ano": 2022,
+      "status": "Em uso",
+      "tipo_recurso": "equipamento de segurança"
+    },
+    {
+      "codigo":"A004",
+      "descricao": "Capacetes de proteção",
+      "modelo": "M1 Tactical",
+      "tipo": "Proteção de cabeça",
+      "quantidade": 30,
+      "ano": 2021,
+      "status": "Em uso",
+      "tipo_recurso": "equipamento de segurança"
+    },
+    {
+      "codigo":"A005",
+      "descricao": "Câmeras de vigilância",
+      "modelo": "Hikvision DS-2CD2143",
+      "tipo": "Câmera de segurança",
+      "quantidade": 100,
+      "ano": 2023,
+      "status": "Em uso",
+      "tipo_recurso": "dispositivo de segurança"
+    },
+    {
+      "codigo":"A006",
+      "descricao": "Rádios comunicadores",
+      "modelo": "Motorola T600",
+      "tipo": "Comunicação",
+      "quantidade": 25,
+      "ano": 2021,
+      "status": "Em manutenção",
+      "tipo_recurso": "equipamentos"
+    },
+    {
+      "codigo":"A007",
+      "descricao": "Drone de vigilância",
+      "modelo": "DJI Mavic 2",
+      "tipo": "Vigilância aérea",
+      "quantidade": 3,
+      "ano": 2020,
+      "status": "Em uso",
+      "tipo_recurso": "equipamentos"
+    },
+    {
+      "codigo":"A008",
+      "descricao": "Caminhão de bombeiro",
+      "modelo": "Volvo FL",
+      "tipo": "Veículo de emergência",
+      "quantidade": 2,
+      "ano": 2018,
+      "status": "Em uso",
+      "tipo_recurso": "veículos"
+    },
+    {
+      "codigo":"A009",
+      "descricao": "Botas táticas",
+      "modelo": "Magnum Panther 8.0",
+      "tipo": "Calçado de proteção",
+      "quantidade": 40,
+      "ano": 2021,
+      "status": "Em uso",
+      "tipo_recurso": "equipamento de segurança"
+    },
+    {
+      "codigo":"A010",
+      "descricao": "Luva de proteção",
+      "modelo": "Mechanix M-Pact",
+      "tipo": "Proteção das mãos",
+      "quantidade": 50,
+      "ano": 2022,
+      "status": "Em uso",
+      "tipo_recurso": "equipamento de segurança"
+    },
+    {
+      "codigo":"A011",
+      "descricao": "Van de transporte",
+      "modelo": "Mercedes Sprinter",
+      "tipo": "Veículo utilitário",
+      "quantidade": 4,
+      "ano": 221,
+      "status": "Em uso",
+      "tipo_recurso": "veículos"
+    },
+    {
+      "codigo":"A012",
+      "descricao": "Extintores de incêndio",
+      "modelo": "ABC 10kg",
+      "tipo": "Combate ao fogo",
+      "quantidade": 20,
+      "ano": 2023,
+      "status": "Em uso",
+      "tipo_recurso": "equipamentos"
+    },
+    {
+      "codigo":"A013",
+      "descricao": "Lanternas táticas",
+      "modelo": "Fenix PD36R",
+      "tipo": "Iluminação",
+      "quantidade": 35,
+      "ano": 2021,
+      "status": "Em uso",
+      "tipo_recurso": "equipamentos"
+    },
+    {
+      "codigo":"A014",
+      "descricao": "Escudos balísticos",
+      "modelo": "ArmoX 300",
+      "tipo": "Defesa",
+      "quantidade": 15,
+      "ano": 2021,
+      "status": "Em uso",
+      "tipo_recurso": "equipamento de segurança"
+    },
+    {
+      "codigo":"A015",
+      "descricao": "Ambulância",
+      "modelo": "Fiat Ducato",
+      "tipo": "Veículo de emergência",
+      "quantidade": 3,
+      "ano": 2020,
+      "status": "Em uso",
+      "tipo_recurso": "veículos"
+    },
+    {
+      "codigo":"A016",
+      "descricao": "Detector de metais portátil",
+      "modelo": "Garrett SuperScanner",
+      "tipo": "Segurança pessoal",
+      "quantidade": 10,
+      "ano": 2022,
+      "status": "Em uso",
+      "tipo_recurso": "equipamento de segurança"
+    },
+    {
+      "codigo":"A017",
+      "descricao": "Barricada móvel",
+      "modelo": "ProBlock 5000",
+      "tipo": "Controle de multidões",
+      "quantidade": 8,
+      "ano": 2020,
+      "status": "Em uso",
+      "tipo_recurso": "equipamentos"
+    },
+    {
+      "codigo":"A018",
+      "descricao": "Caminhão tanque",
+      "modelo": "Scania P360",
+      "tipo": "Transporte de água",
+      "quantidade": 2,
+      "ano": 2019,
+      "status": "Em uso",
+      "tipo_recurso": "veículos"
+    },
+    {
+      "codigo":"A019",
+      "descricao": "Escada extensível",
+      "modelo": "Aluminium 12m",
+      "tipo": "Resgate",
+      "quantidade": 5,
+      "ano": 2021,
+      "status": "Em uso",
+      "tipo_recurso": "equipamentos"
+    },
+    {
+      "codigo":"A020",
+      "descricao": "Spray de pimenta",
+      "modelo": "Sabre Red",
+      "tipo": "Defesa pessoal",
+      "quantidade": 60,
+      "ano": 2022,
+      "status": "Em uso",
+      "tipo_recurso": "equipamento de segurança"
+    },
+    {
+      "codigo":"A021",
+      "descricao": "Caminhonete",
+      "modelo": "Chevrolet Silverado",
+      "tipo": "Veículo utilitário",
+      "quantidade": 5,
+      "ano": 2019,
+      "status": "Em uso",
+      "tipo_recurso": "veículos"
+    },
+    {
+      "codigo":"A022",
+      "descricao": "Máscara de gás",
+      "modelo": "M50 Gas Mask",
+      "tipo": "Proteção respiratória",
+      "quantidade": 20,
+      "ano": 2020,
+      "status": "Em uso",
+      "tipo_recurso": "equipamento de segurança"
+    },
+    {
+      "codigo":"A023",
+      "descricao": "Gerador portátil",
+      "modelo": "Honda EU2200i",
+      "tipo": "Energia portátil",
+      "quantidade": 6,
+      "ano": 2021,
+      "status": "Em uso",
+      "tipo_recurso": "equipamentos"
+    },
+    {
+      "codigo":"A024",
+      "descricao": "Cinto de utilidades",
+      "modelo": "Condor Tactical Belt",
+      "tipo": "Acessório tático",
+      "quantidade": 40,
+      "ano": 2023,
+      "status": "Em uso",
+      "tipo_recurso": "equipamento de segurança"
+    },
+    {
+      "codigo":"A025",
+      "descricao": "Barco de resgate",
+      "modelo": "Zodiac Milpro",
+      "tipo": "Resgate aquático",
+      "quantidade": 2,
+      "ano": 2018,
+      "status": "Em uso",
+      "tipo_recurso": "veículos"
+    },
+    {
+      "codigo":"A026",
+      "descricao": "Megafone portátil",
+      "modelo": "Pyle Pro PMP30",
+      "tipo": "Amplificação de som",
+      "quantidade": 10,
+      "ano": 2021,
+      "status": "Em uso",
+      "tipo_recurso": "equipamentos"
+    },
+    {
+      "codigo":"A027",
+      "descricao": "Binóculos táticos",
+      "modelo": "Nikon 7576 MONARCH 5",
+      "tipo": "Visão de longa distância",
+      "quantidade": 12,
+      "ano": 2020,
+      "status": "Em uso",
+      "tipo_recurso": "equipamentos"
+    },
+    {
+      "codigo":"A028",
+      "descricao": "Chave de corte hidráulica",
+      "modelo": "Holmatro 4050 NCT",
+      "tipo": "Resgate",
+      "quantidade": 4,
+      "ano": 2022,
+      "status": "Em uso",
+      "tipo_recurso": "equipamentos"
+    },
+    {
+      "codigo":"A029",
+      "descricao": "Carro blindado",
+      "modelo": "Toyota Land Cruiser",
+      "tipo": "Veículo blindado",
+      "quantidade": 3,
+      "ano": 2020,
+      "status": "Em uso",
+      "tipo_recurso": "veículos"
+    },
+    {
+      "codigo":"A030",
+      "descricao": "Sinalizadores de emergência",
+      "modelo": "Orion Safety Flares",
+      "tipo": "Sinalização",
+      "quantidade": 50,
+      "ano": 2021,
+      "status": "Em uso",
+      "tipo_recurso": "equipamentos"
+    },
+    {
+      "codigo":"A031",
+      "descricao": "Taser X26P",
+      "modelo": "Axon Taser",
+      "tipo": "Dispositivo de controle",
+      "quantidade": 20,
+      "ano": 2022,
+      "status": "Em uso",
+      "tipo_recurso": "equipamento de segurança"
+    },
+    {
+      "codigo":"A032",
+      "descricao": "Colete salva-vidas",
+      "modelo": "Stearns I424",
+      "tipo": "Flutuação",
+      "quantidade": 30,
+      "ano": 2020,
+      "status": "Em uso",
+      "tipo_recurso": "equipamento de segurança"
+    },
+    {
+      "codigo":"A033",
+      "descricao": "Ônibus de transporte",
+      "modelo": "Mercedes-Benz OF 1721",
+      "tipo": "Veículo de transporte",
+      "quantidade": 2,
+      "ano": 2019,
+      "status": "Em uso",
+      "tipo_recurso": "veículos"
+    },
+    {
+      "codigo":"A034",
+      "descricao": "Monitor cardíaco portátil",
+      "modelo": "Philips HeartStart FR3",
+      "tipo": "Monitoramento de saúde",
+      "quantidade": 5,
+      "ano": 2023,
+      "status": "Em uso",
+      "tipo_recurso": "equipamentos"
+    },
+    {
+      "codigo":"A035",
+      "descricao": "Detectores de fumaça",
+      "modelo": "Kidde Smoke Alarm i12010S",
+      "tipo": "Segurança residencial",
+      "quantidade": 100,
+      "ano": 2021,
+      "status": "Em uso",
+      "tipo_recurso": "dispositivo de segurança"
+    },
+    {
+      "codigo":"A036",
+      "descricao": "Caminhão de reboque",
+      "modelo": "Volvo FH",
+      "tipo": "Veículo de reboque",
+      "quantidade": 2,
+      "ano": 2018,
+      "status": "Em uso",
+      "tipo_recurso": "veículos"
+    },
+    {
+      "codigo":"A037",
+      "descricao": "Detector de explosivos",
+      "modelo": "Smiths Detection IONSCAN 600",
+      "tipo": "Detecção",
+      "quantidade": 3,
+      "ano": 2021,
+      "status": "Em uso",
+      "tipo_recurso": "equipamentos"
+    },
+    {
+      "codigo":"A038",
+      "descricao": "Cão de trabalho policial",
+      "modelo": "Pastor Alemão",
+      "tipo": "Detecção e busca",
+      "quantidade": 5,
+      "ano": 2019,
+      "status": "Em uso",
+      "tipo_recurso": "equipamentos"
+    },
+    {
+      "codigo":"A039",
+      "descricao": "Kit de primeiros socorros",
+      "modelo": "Rescue Guard PRO",
+      "tipo": "Primeiros socorros",
+      "quantidade": 20,
+      "ano": 2023,
+      "status": "Em uso",
+      "tipo_recurso": "equipamentos"
+    },
+    {
+      "codigo":"A040",
+      "descricao": "Moto de resgate",
+      "modelo": "Honda CB500X",
+      "tipo": "Moto de emergência",
+      "quantidade": 4,
+      "ano": 2022,
+      "status": "Em uso",
+      "tipo_recurso": "veículos"
+    },
+    {
+      "codigo":"A041",
+      "descricao": "Óculos de visão noturna",
+      "modelo": "ATN PS15-4",
+      "tipo": "Visão noturna",
+      "quantidade": 10,
+      "ano": 2021,
+      "status": "Em uso",
+      "tipo_recurso": "equipamento de segurança"
+    },
+    {
+      "codigo":"A042",
+      "descricao": "Escudo antitumulto",
+      "modelo": "DefensTech Riot Shield",
+      "tipo": "Controle de multidões",
+      "quantidade": 15,
+      "ano": 2020,
+      "status": "Em uso",
+      "tipo_recurso": "equipamento de segurança"
+    },
+    {
+      "codigo":"A043",
+      "descricao": "Gerador de energia solar",
+      "modelo": "Goal Zero Yeti 1500X",
+      "tipo": "Energia alternativa",
+      "quantidade": 3,
+      "ano": 2022,
+      "status": "Em uso",
+      "tipo_recurso": "equipamentos"
+    },
+    {
+      "codigo":"A044",
+      "descricao": "Mini carro de patrulha",
+      "modelo": "Smart Fortwo",
+      "tipo": "Veículo compacto",
+      "quantidade": 6,
+      "ano": 2021,
+      "status": "Em uso",
+      "tipo_recurso": "veículos"
+    },
+    {
+      "codigo":"A045",
+      "descricao": "Máscara respiratória",
+      "modelo": "3M 6200",
+      "tipo": "Proteção respiratória",
+      "quantidade": 50,
+      "ano": 2021,
+      "status": "Em uso",
+      "tipo_recurso": "equipamento de segurança"
+    },
+    {
+      "codigo":"A046",
+      "descricao": "Lanterna de cabeça",
+      "modelo": "Black Diamond Spot 350",
+      "tipo": "Iluminação portátil",
+      "quantidade": 30,
+      "ano": 2023,
+      "status": "Em uso",
+      "tipo_recurso": "equipamentos"
+    },
+    {
+      "codigo":"A047",
+      "descricao": "Helicóptero de resgate",
+      "modelo": "Bell 412",
+      "tipo": "Aeronave",
+      "quantidade": 1,
+      "ano": 2018,
+      "status": "Em uso",
+      "tipo_recurso": "veículos"
+    },
+    {
+      "codigo":"A048",
+      "descricao": "Cones de sinalização",
+      "modelo": "Safety Bright",
+      "tipo": "Sinalização de trânsito",
+      "quantidade": 200,
+      "ano": 2020,
+      "status": "Em uso",
+      "tipo_recurso": "equipamentos"
+    },
+    {
+      "codigo":"A049",
+      "descricao": "Tablet robusto",
+      "modelo": "Panasonic Toughbook",
+      "tipo": "Tecnologia móvel",
+      "quantidade": 12,
+      "ano": 2022,
+      "status": "Em uso",
+      "tipo_recurso": "equipamentos"
+    },
+    {
+      "codigo":"A050",
+      "descricao": "Caminhão de resgate",
+      "modelo": "MAN TGS",
+      "tipo": "Veículo de emergência",
+      "quantidade": 2,
+      "ano": 2019,
+      "status": "Em uso",
+      "tipo_recurso": "veículos"
+    },
+    {
+      "codigo":"A051",
+      "descricao": "Câmera de segurança interna",
+      "modelo": "Arlo Pro 4",
+      "tipo": "Câmera de monitoramento",
+      "quantidade": 80,
+      "ano": 2023,
+      "status": "Em uso",
+      "tipo_recurso": "dispositivo de segurança"
+    },
+    {
+        "codigo":"A052",
+        "descricao": "Alarme de intrusão",
+        "modelo": "Honeywell Vista 20P",
+        "tipo": "Sistema de alarme",
+        "quantidade": 50,
+        "ano": 2022,
+        "status": "Em uso",
+        "tipo_recurso": "dispositivo de segurança"
+    },
+    {
+        "codigo":"A053",
+        "descricao": "Sensor de movimento",
+        "modelo": "Bosch ISC-BPR2-W12",
+        "tipo": "Sensor de segurança",
+        "quantidade": 100,
+        "ano": 2023,
+        "status": "Em uso",
+        "tipo_recurso": "dispositivo de segurança"
+    },
+    {
+        "codigo":"A054",
+        "descricao": "Câmera de segurança externa",
+        "modelo": "Ring Floodlight Cam",
+        "tipo": "Câmera de monitoramento externo",
+        "quantidade": 60,
+        "ano": 2022,
+        "status": "Em uso",
+        "tipo_recurso": "dispositivo de segurança"
+    },
+    {
+        "codigo":"A055",
+        "descricao": "Sistema de detecção de incêndio",
+        "modelo": "Bosch FPA-5000",
+        "tipo": "Sensor de fumaça",
+        "quantidade": 40,
+        "ano": 2021,
+        "status": "Em uso",
+        "tipo_recurso": "dispositivo de segurança"
+    },
+    {
+        "codigo":"A056",
+        "descricao": "Sensor de abertura de portas e janelas",
+        "modelo": "SimpliSafe Entry Sensor",
+        "tipo": "Sensor de segurança",
+        "quantidade": 120,
+        "ano": 2023,
+        "status": "Em uso",
+        "tipo_recurso": "dispositivo de segurança"
+    },
+    {
+        "codigo":"A057",
+        "descricao": "Câmera IP de monitoramento",
+        "modelo": "TP-Link Tapo C310",
+        "tipo": "Câmera de segurança",
+        "quantidade": 75,
+        "ano": 2022,
+        "status": "Em uso",
+        "tipo_recurso": "dispositivo de segurança"
+    },
+    {
+        "codigo":"A058",
+        "descricao": "Alarme de incêndio",
+        "modelo": "Kidde i9010",
+        "tipo": "Dispositivo de alarme",
+        "quantidade": 90,
+        "ano": 2023,
+        "status": "Em uso",
+        "tipo_recurso": "dispositivo de segurança"
+    },
+    {
+        "codigo":"A059",
+        "descricao": "Sistema antivírus corporativo",
+        "modelo": "Norton Small Business",
+        "tipo": "Proteção digital",
+        "quantidade": 150,
+        "ano": 2023,
+        "status": "Em uso",
+        "tipo_recurso": "dispositivo de segurança"
+    },
+    {
+        "codigo":"A060",
+        "descricao": "Sistema de vigilância por vídeo",
+        "modelo": "Dahua NVR5208-8P-4KS2",
+        "tipo": "Sistema de CFTV",
+        "quantidade": 50,
+        "ano": 2023,
+        "status": "Em manutenção",
+        "tipo_recurso": "dispositivo de segurança"
+    }
+]
+  

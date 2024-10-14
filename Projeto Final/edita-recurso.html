@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Editar Recurso</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="edita-recurso.css">
+</head>
+<main>
+    <h1>Editar Recurso</h1>
+    
+    <form id="formulario" class="form-container">
+        <div class="form-group">
+            <label for="codigo">Código:</label>
+            <input type="text" id="codigo" disabled class="form-control">
+        </div>
+
+        <div class="form-group">
+            <label for="descricao">Descrição:</label>
+            <textarea id="descricao" rows="3" class="form-control"></textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="modelo">Modelo:</label>
+            <input type="text" id="modelo" class="form-control">
+        </div>
+
+        <div class="form-group">
+            <label for="tipo">Tipo:</label>
+            <input type="text" id="tipo" class="form-control">
+        </div>
+
+        <div class="form-group">
+            <label for="quantidade">Quantidade:</label>
+            <input type="number" id="quantidade" class="form-control">
+        </div>
+
+        <div class="form-group">
+            <label for="ano">Ano:</label>
+            <input type="number" id="ano" class="form-control">
+        </div>
+
+        <div class="form-group">
+            <label for="status">Status:</label>
+            <select id="status" class="form-control">
+                <option value="Em uso">Em uso</option>
+                <option value="Em manutenção">Em manutenção</option>
+                <option value="Disponível">Disponível</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="tipo_recurso">Tipo de Recurso:</label>
+            <select id="tipo_recurso" class="form-control">
+                <option value="equipamentos">Equipamentos</option>
+                <option value="veículos">Veículos</option>
+                <option value="equipamento de segurança">Equipamento de segurança</option>
+                <option value="dispositivo de segurança">Dispositivo de segurança</option>
+            </select>
+        </div>
+
+        <div class="button-container">
+            <button type="submit" class="submit-button">Salvar Alterações</button>
+        </div>
+    </form>
+</main>
+
+    <script src="edita-recurso.js"></script>
+</html>

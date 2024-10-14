@@ -1,0 +1,234 @@
+[
+  {
+    "nome": "Lucas",
+    "sobrenome": "Silva",
+    "usuario": "lucas.silva",
+    "senha": "Senha123",
+    "dataNascimento": "1990-04-15",
+    "cargo": "funcionario"
+  },
+  {
+    "nome": "Mariana",
+    "sobrenome": "Souza",
+    "usuario": "mariana.souza",
+    "senha": "Senha456",
+    "dataNascimento": "1987-06-22",
+    "cargo": "gerente"
+  },
+  {
+    "nome": "Pedro",
+    "sobrenome": "Almeida",
+    "usuario": "pedro.almeida",
+    "senha": "Senha789",
+    "dataNascimento": "1995-03-10",
+    "cargo": "funcionario"
+  },
+  {
+    "nome": "Ana",
+    "sobrenome": "Costa",
+    "usuario": "ana.costa",
+    "senha": "Senha321",
+    "dataNascimento": "1993-11-02",
+    "cargo": "administrador de segurança"
+  },
+  {
+    "nome": "Rafael",
+    "sobrenome": "Pereira",
+    "usuario": "rafael.pereira",
+    "senha": "Senha654",
+    "dataNascimento": "1985-09-08",
+    "cargo": "gerente"
+  },
+  {
+    "nome": "Fernanda",
+    "sobrenome": "Melo",
+    "usuario": "fernanda.melo",
+    "senha": "Senha987",
+    "dataNascimento": "1992-12-30",
+    "cargo": "funcionario"
+  },
+  {
+    "nome": "João",
+    "sobrenome": "Gomes",
+    "usuario": "joao.gomes",
+    "senha": "Senha112",
+    "dataNascimento": "1991-05-16",
+    "cargo": "administrador de segurança"
+  },
+  {
+    "nome": "Beatriz",
+    "sobrenome": "Lima",
+    "usuario": "beatriz.lima",
+    "senha": "Senha334",
+    "dataNascimento": "1994-07-25",
+    "cargo": "funcionario"
+  },
+  {
+    "nome": "Carlos",
+    "sobrenome": "Oliveira",
+    "usuario": "carlos.oliveira",
+    "senha": "Senha556",
+    "dataNascimento": "1983-01-11",
+    "cargo": "gerente"
+  },
+  {
+    "nome": "Tatiane",
+    "sobrenome": "Rodrigues",
+    "usuario": "tatiane.rodrigues",
+    "senha": "Senha778",
+    "dataNascimento": "1989-02-18",
+    "cargo": "funcionario"
+  },
+  {
+    "nome": "Rodrigo",
+    "sobrenome": "Santos",
+    "usuario": "rodrigo.santos",
+    "senha": "Senha990",
+    "dataNascimento": "1986-03-07",
+    "cargo": "administrador de segurança"
+  },
+  {
+    "nome": "Camila",
+    "sobrenome": "Ferreira",
+    "usuario": "camila.ferreira",
+    "senha": "Senha223",
+    "dataNascimento": "1997-09-19",
+    "cargo": "funcionario"
+  },
+  {
+    "nome": "Marcelo",
+    "sobrenome": "Barbosa",
+    "usuario": "marcelo.barbosa",
+    "senha": "Senha445",
+    "dataNascimento": "1990-08-13",
+    "cargo": "gerente"
+  },
+  {
+    "nome": "Patrícia",
+    "sobrenome": "Nogueira",
+    "usuario": "patricia.nogueira",
+    "senha": "Senha667",
+    "dataNascimento": "1988-12-24",
+    "cargo": "funcionario"
+  },
+  {
+    "nome": "Gustavo",
+    "sobrenome": "Teixeira",
+    "usuario": "gustavo.teixeira",
+    "senha": "Senha889",
+    "dataNascimento": "1991-10-03",
+    "cargo": "administrador de segurança"
+  },
+  {
+    "nome": "Larissa",
+    "sobrenome": "Martins",
+    "usuario": "larissa.martins",
+    "senha": "Senha010",
+    "dataNascimento": "1995-11-11",
+    "cargo": "funcionario"
+  },
+  {
+    "nome": "Felipe",
+    "sobrenome": "Cardoso",
+    "usuario": "felipe.cardoso",
+    "senha": "Senha121",
+    "dataNascimento": "1992-05-28",
+    "cargo": "gerente"
+  },
+  {
+    "nome": "Renata",
+    "sobrenome": "Vasconcelos",
+    "usuario": "renata.vasconcelos",
+    "senha": "Senha232",
+    "dataNascimento": "1984-07-04",
+    "cargo": "funcionario"
+  },
+  {
+    "nome": "Leandro",
+    "sobrenome": "Farias",
+    "usuario": "leandro.farias",
+    "senha": "Senha343",
+    "dataNascimento": "1996-08-29",
+    "cargo": "administrador de segurança"
+  },
+  {
+    "nome": "Vanessa",
+    "sobrenome": "Ribeiro",
+    "usuario": "vanessa.ribeiro",
+    "senha": "Senha454",
+    "dataNascimento": "1993-06-10",
+    "cargo": "funcionario"
+  },
+  {
+    "nome": "Eduardo",
+    "sobrenome": "Araújo",
+    "usuario": "eduardo.araujo",
+    "senha": "Senha565",
+    "dataNascimento": "1990-03-05",
+    "cargo": "gerente"
+  },
+  {
+    "nome": "Isabela",
+    "sobrenome": "Moreira",
+    "usuario": "isabela.moreira",
+    "senha": "Senha676",
+    "dataNascimento": "1994-09-22",
+    "cargo": "funcionario"
+  },
+  {
+    "nome": "Fábio",
+    "sobrenome": "Campos",
+    "usuario": "fabio.campos",
+    "senha": "Senha787",
+    "dataNascimento": "1987-12-15",
+    "cargo": "administrador de segurança"
+  },
+  {
+    "nome": "Juliana",
+    "sobrenome": "Carvalho",
+    "usuario": "juliana.carvalho",
+    "senha": "Senha898",
+    "dataNascimento": "1989-02-14",
+    "cargo": "funcionario"
+  },
+  {
+    "nome": "André",
+    "sobrenome": "Nascimento",
+    "usuario": "andre.nascimento",
+    "senha": "Senha909",
+    "dataNascimento": "1991-01-08",
+    "cargo": "gerente"
+  },
+  {
+    "nome": "Paula",
+    "sobrenome": "Pinto",
+    "usuario": "paula.pinto",
+    "senha": "Senha0101",
+    "dataNascimento": "1997-04-20",
+    "cargo": "funcionario"
+  },
+  {
+    "nome": "Bruno",
+    "sobrenome": "Castro",
+    "usuario": "bruno.castro",
+    "senha": "Senha1112",
+    "dataNascimento": "1993-05-17",
+    "cargo": "administrador de segurança"
+  },
+  {
+    "nome": "Aline",
+    "sobrenome": "Moura",
+    "usuario": "aline.moura",
+    "senha": "Senha1213",
+    "dataNascimento": "1990-09-23",
+    "cargo": "funcionario"
+  },
+  {
+    "nome": "Diego",
+    "sobrenome": "Moreira",
+    "usuario": "diego.moreira",
+    "senha": "Senha1314",
+    "dataNascimento": "1985-11-07",
+    "cargo": "gerente"
+  }
+]

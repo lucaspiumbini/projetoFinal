@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 280px); /* Espaço para logo e seção direita */
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a.active {
+    border-bottom: 2px solid #fff;
+}
+
+.logo {
+    align-self: flex-start;
+    padding: 10px;
+    display: auto;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: center;
+
+}
+
+.main-nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+.main-nav li {
+    margin: 0 15px;
+}
+
+.card {
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.card p {
+    font-weight: bold;
+    font-size: larger;
+    padding: 20px;
+    margin-bottom: 20px;
+    position: right;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}   
+
+.icon {
+    font-size: 40px;
+    margin-right: 15px;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 5px;
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress {
+    width: 0;
+    height: 100%;
+    background-color: #4CAF50;
+    transition: width 0.5s ease-out;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+#alertContainer {
+    margin-top: 20px;
+}
+
+.alert {
+    background-color: #ffcccb;
+    color: #b30000;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 0 15px; 
+}
+
+.right-section p {
+    margin-bottom: 5px;
+}
+
+.right-section ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.right-section li {
+    margin-top: 5px;
+}

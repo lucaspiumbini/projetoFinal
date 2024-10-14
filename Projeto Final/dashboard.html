@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard de Segurança - Indústrias Wayne</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style-dash.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Indústrias Wayne</div>
+            <ul class="main-nav">
+                <li><a href="recursos.html">Recursos</a></li>
+                <li><a href="dashboard.html" class="active">Dashboard</a></li>
+            </ul>
+            <div class="right-section">
+                <p id="olauser"></p>
+                <li><a href="#" onclick="perfilUser()"><i class="fas fa-user-circle"></i> Perfil</a></li>
+                <li><a href="#" onclick="sair()"><i class="fas fa-sign-out-alt"></i> Sair</a></li>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="overview">
+            <h2>Resumo Geral</h2>
+            <div class="card">
+                <div class="info">
+                    <span class="icon"><i class="fas fa-shield-alt"></i></span>
+                    <h3>Nível de Segurança   </h3>
+                    <p id='nivel-seguranca'></p>
+                </div>
+                <div class="progress-bar" id="seguranca-bar"></div>
+            </div>
+
+            <div class="card">
+                <div class="info">
+                    <span class="icon"><i class="fas fa-building"></i></span>
+                    <h3>Recursos Disponíveis   </h3>
+                    <p id='recursos-disponiveis'></p>
+                </div>
+                <div class="progress-bar" id="recursos-bar"></div>
+            </div>
+
+            <div class="card">
+                <div class="info">
+                    <span class="icon"><i class="fas fa-users"></i></span>
+                    <h3>Número de Funcionários   </h3>
+                    <p id="usuarios"></p>
+                </div>
+            </div>
+        </section>
+
+        <section class="resources">
+            <h2>Resumo de Recursos</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Categoria</th>
+                        <th>Quantidade</th>
+                        <th>% Em uso</th>
+                    </tr>
+                </thead>
+                <tbody id="valores-dash">
+
+                </tbody>
+            </table>
+        </section>
+
+        <section class="alerts">
+            <h2>Avisos Importantes</h2>
+            <div class="card">
+                <div class="info">
+                    <h3 id="alertas"></h3>
+                </div>
+            </div>
+            
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Indústrias Wayne. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="scripts2.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Gerenciamento de Segurança - Login</title>
+    <link rel="stylesheet" href="style-login.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="logo">Indústrias Wayne</div>
+        <h2>Bem-vindo ao Sistema de Gerenciamento de Segurança</h2>
+        <div id="msgError"></div>
+        <form id="loginForm">
+            <input type="text" placeholder="Usuário" id="usuario" required>
+            <input type="password" placeholder="Senha" id="senha" required>
+            <button onclick="entrar()" type="submit">Login</button>
+        </form>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
